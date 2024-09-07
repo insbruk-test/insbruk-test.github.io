@@ -562,6 +562,9 @@ html {
   opacity: 1;
   visibility: visible
 }
+.footer__nav-title::-webkit-details-marker {
+  display: none
+}
 .hero {
   padding-top: 5rem;
   padding-bottom: 3.75rem;
@@ -2123,9 +2126,6 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   }
   .footer__contacts {
     align-items: flex-start
-  }
-  .footer__nav-title::-webkit-details-marker {
-    display: none
   }
   .slide__pros-icon {
     max-width: 1.875rem;

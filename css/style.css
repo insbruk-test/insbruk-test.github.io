@@ -511,7 +511,8 @@ html {
 }
 .footer__contacts-address {
   display: flex;
-  flex-direction: column
+  flex-direction: column;
+  text-align: center
 }
 .footer__contacts-address span {
   font-style: normal;
@@ -901,6 +902,8 @@ html {
   text-transform: uppercase;
   font-family: Montserrat;
   color: #b49d3c;
+  position: relative;
+  z-index: 1;
   margin-top: -12.5rem
 }
 .map__content a {

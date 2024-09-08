@@ -511,8 +511,7 @@ html {
 }
 .footer__contacts-address {
   display: flex;
-  flex-direction: column;
-  text-align: center
+  flex-direction: column
 }
 .footer__contacts-address span {
   font-style: normal;
@@ -1542,6 +1541,11 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   bottom: 0;
   right: 0;
   left: 0
+}
+@media (min-width:29.99875em) {
+  .footer__contacts-address {
+    text-align: center
+  }
 }
 @media (min-width:47.99875em) {
   .footer__nav {

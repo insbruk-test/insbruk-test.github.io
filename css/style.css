@@ -281,6 +281,33 @@ html {
   -webkit-transform: translateY(0);
   transform: translateY(0)
 }
+.container-nf {
+  display: flex;
+  flex-direction: column;
+  padding-top: 6.25rem;
+  justify-content: center;
+  align-items: center
+}
+.nf-title {
+  font-size: 1.875rem;
+  color: #b49d3c;
+  text-align: center
+}
+.nf-title:not(:last-child) {
+  margin-bottom: 1.25rem
+}
+.nf-text {
+  text-align: center;
+  font-size: 1.125rem
+}
+.nf-text:not(:last-child) {
+  margin-bottom: 1.25rem
+}
+.nf-link {
+  color: #faf7e6;
+  text-align: center;
+  font-size: 1.125rem
+}
 .header {
   position: fixed;
   top: 0;

@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /private/
+
+Sitemap: https://insbruk.co/sitemap.xml
